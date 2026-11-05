@@ -4,6 +4,10 @@ A small, unofficial Chrome extension that displays the remaining ChatGPT Work / 
 
 一款非官方 Chrome 扩展：在 ChatGPT 网页显示可拖动的绿色额度圆环。
 
+## Preview / 界面预览
+<img width="1496" height="794" alt="屏幕截图 2026-11-06 005309" src="https://github.com/user-attachments/assets/b8f0e7ed-af75-4d8d-908f-cbf9dda2678a" />
+
+
 ## Features / 功能
 
 - Live 5-hour quota ring / 5 小时剩余额度圆环
