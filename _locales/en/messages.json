@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "ChatGPT Quota Ring"
+  },
+  "extDescription": {
+    "message": "See your remaining 5-hour quota, weekly quota, reset times, and available quota resets."
+  },
+  "extActionTitle": {
+    "message": "ChatGPT Quota Ring · Click for usage · Hover for details"
+  },
+  "controlAria": {
+    "message": "Click to open usage; drag to move; hover for quota details"
+  },
+  "fiveLabel": {
+    "message": "5-hour left"
+  },
+  "weeklyLabel": {
+    "message": "Weekly left"
+  },
+  "creditLabel": {
+    "message": "Available resets: "
+  },
+  "creditCount": {
+    "message": "$1"
+  },
+  "loading": {
+    "message": "Loading…"
+  },
+  "noWindowData": {
+    "message": "No data for this period"
+  },
+  "resetUnknown": {
+    "message": "Reset time unavailable"
+  },
+  "resetPassed": {
+    "message": "Expected reset completed"
+  },
+  "resetsDays": {
+    "message": "Resets in $1d $2h"
+  },
+  "resetsHours": {
+    "message": "Resets in $1h $2m"
+  },
+  "resetsMinutes": {
+    "message": "Resets in $1m"
+  },
+  "expiryUnknown": {
+    "message": "Expiry unknown"
+  },
+  "creditSeconds": {
+    "message": "$1s"
+  },
+  "creditMinutes": {
+    "message": "$1m"
+  },
+  "creditHours": {
+    "message": "$1h"
+  },
+  "creditDays": {
+    "message": "$1d"
+  },
+  "creditDaysHours": {
+    "message": "$1d $2h"
+  },
+  "creditRemaining": {
+    "message": "Left: $1"
+  },
+  "listSeparator": {
+    "message": ", "
+  },
+  "creditCountUnknown": {
+    "message": "Reset count unavailable"
+  },
+  "creditsNone": {
+    "message": "No saved resets available"
+  },
+  "creditDetailsUnavailable": {
+    "message": "Expiry details unavailable"
+  },
+  "creditRateLimited": {
+    "message": "Expiry lookup limited; retrying later"
+  },
+  "creditNoExpiry": {
+    "message": "No expiry times provided"
+  },
+  "creditExtraCount": {
+    "message": "$1 more without expiry details"
+  },
+  "connectionTimeout": {
+    "message": "Connection timed out. Refresh ChatGPT."
+  },
+  "usageReadFailed": {
+    "message": "Unable to load quota"
+  },
+  "errorTimeout": {
+    "message": "Request timed out"
+  },
+  "errorTooManyRequests": {
+    "message": "Too many requests (HTTP 429)"
+  },
+  "errorUnauthorized": {
+    "message": "Quota access denied; check your login"
+  },
+  "errorNotRecognized": {
+    "message": "Unrecognized quota data"
+  },
+  "errorNoQuota": {
+    "message": "No recognizable 5-hour or weekly quota returned"
+  },
+  "errorNoSession": {
+    "message": "Sign in to ChatGPT first"
+  },
+  "errorUnknown": {
+    "message": "Unknown error"
+  },
+  "errorHttp": {
+    "message": "HTTP error $1"
+  },
+  "popupTitle": {
+    "message": "Quota and resets"
+  },
+  "popupSubtitle": {
+    "message": "ChatGPT Work / Codex · Quota Ring"
+  },
+  "popupCreditLabel": {
+    "message": "Available saved resets"
+  },
+  "popupLoading": {
+    "message": "Reading saved quota data…"
+  },
+  "popupNoCount": {
+    "message": "Reset count not loaded. Open ChatGPT and refresh."
+  },
+  "popupNoDetails": {
+    "message": "Reset count found; expiry details unavailable"
+  },
+  "popupExtraCount": {
+    "message": "$1 more without expiry times"
+  },
+  "popupNoExpiry": {
+    "message": "No expiry times returned"
+  },
+  "popupShowRing": {
+    "message": "Show ring on ChatGPT"
+  },
+  "popupUsagePage": {
+    "message": "Open usage page"
+  },
+  "popupRefresh": {
+    "message": "Refresh"
+  },
+  "popupSafetyNote": {
+    "message": "Read-only: does not consume saved reset credits."
+  },
+  "popupRefreshNotice": {
+    "message": "Refresh requested. Keep the ChatGPT tab visible."
+  }
+}

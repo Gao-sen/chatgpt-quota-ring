@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "ChatGPT 사용량 링"
+  },
+  "extDescription": {
+    "message": "5시간 및 주간 잔여 사용량, 초기화 시각과 사용 가능한 초기화 횟수를 표시합니다."
+  },
+  "extActionTitle": {
+    "message": "ChatGPT 사용량 링 · 클릭해서 사용량 보기 · 마우스를 올려 세부 정보 확인"
+  },
+  "controlAria": {
+    "message": "클릭하면 사용량 페이지가 열립니다. 드래그로 이동하고 마우스를 올리면 세부 정보를 표시합니다"
+  },
+  "fiveLabel": {
+    "message": "5시간 잔여"
+  },
+  "weeklyLabel": {
+    "message": "주간 잔여"
+  },
+  "creditLabel": {
+    "message": "사용 가능 초기화: "
+  },
+  "creditCount": {
+    "message": "$1회"
+  },
+  "loading": {
+    "message": "불러오는 중…"
+  },
+  "noWindowData": {
+    "message": "이 기간의 데이터 없음"
+  },
+  "resetUnknown": {
+    "message": "초기화 시각 미공개"
+  },
+  "resetPassed": {
+    "message": "초기화 완료 예상"
+  },
+  "resetsDays": {
+    "message": "$1일 $2시간 후 초기화"
+  },
+  "resetsHours": {
+    "message": "$1시간 $2분 후 초기화"
+  },
+  "resetsMinutes": {
+    "message": "$1분 후 초기화"
+  },
+  "expiryUnknown": {
+    "message": "만료 시각 알 수 없음"
+  },
+  "creditSeconds": {
+    "message": "$1초"
+  },
+  "creditMinutes": {
+    "message": "$1분"
+  },
+  "creditHours": {
+    "message": "$1시간"
+  },
+  "creditDays": {
+    "message": "$1일"
+  },
+  "creditDaysHours": {
+    "message": "$1일 $2시간"
+  },
+  "creditRemaining": {
+    "message": "남음 $1"
+  },
+  "listSeparator": {
+    "message": ", "
+  },
+  "creditCountUnknown": {
+    "message": "초기화 횟수 정보 없음"
+  },
+  "creditsNone": {
+    "message": "사용 가능한 초기화 없음"
+  },
+  "creditDetailsUnavailable": {
+    "message": "만료 정보 조회 불가"
+  },
+  "creditRateLimited": {
+    "message": "만료 정보 요청 제한, 나중에 재시도"
+  },
+  "creditNoExpiry": {
+    "message": "만료 시각 정보 없음"
+  },
+  "creditExtraCount": {
+    "message": "나머지 $1회의 만료 정보 없음"
+  },
+  "connectionTimeout": {
+    "message": "연결 시간이 초과되었습니다. ChatGPT를 새로고침하세요."
+  },
+  "usageReadFailed": {
+    "message": "사용량을 불러오지 못했습니다"
+  },
+  "errorTimeout": {
+    "message": "요청 시간 초과"
+  },
+  "errorTooManyRequests": {
+    "message": "요청이 너무 많습니다 (HTTP 429)"
+  },
+  "errorUnauthorized": {
+    "message": "사용량 접근이 거부되었습니다. 로그인 상태를 확인하세요"
+  },
+  "errorNotRecognized": {
+    "message": "사용량 데이터를 인식할 수 없음"
+  },
+  "errorNoQuota": {
+    "message": "5시간 또는 주간 사용량 데이터가 없습니다"
+  },
+  "errorNoSession": {
+    "message": "ChatGPT에 로그인해 주세요"
+  },
+  "errorUnknown": {
+    "message": "알 수 없는 오류"
+  },
+  "errorHttp": {
+    "message": "HTTP 오류 $1"
+  },
+  "popupTitle": {
+    "message": "사용량 및 초기화"
+  },
+  "popupSubtitle": {
+    "message": "ChatGPT Work / Codex · 사용량 링"
+  },
+  "popupCreditLabel": {
+    "message": "사용 가능한 저장 초기화"
+  },
+  "popupLoading": {
+    "message": "저장된 사용량 불러오는 중…"
+  },
+  "popupNoCount": {
+    "message": "초기화 횟수가 없습니다. ChatGPT를 열고 새로고침하세요."
+  },
+  "popupNoDetails": {
+    "message": "횟수만 확인됨, 만료 정보는 없음"
+  },
+  "popupExtraCount": {
+    "message": "추가 $1회의 만료 시각 정보 없음"
+  },
+  "popupNoExpiry": {
+    "message": "서버가 만료 시각을 제공하지 않음"
+  },
+  "popupShowRing": {
+    "message": "ChatGPT에 링 표시"
+  },
+  "popupUsagePage": {
+    "message": "사용량 페이지"
+  },
+  "popupRefresh": {
+    "message": "새로고침"
+  },
+  "popupSafetyNote": {
+    "message": "조회 전용이며 초기화 횟수를 자동 사용하지 않습니다."
+  },
+  "popupRefreshNotice": {
+    "message": "새로고침을 요청했습니다. ChatGPT 탭을 열어 두세요."
+  }
+}

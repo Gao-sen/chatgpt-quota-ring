@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "ChatGPT 額度懸浮窗"
+  },
+  "extDescription": {
+    "message": "顯示5小時剩餘額度；將滑鼠移至圓環上，可查看每週額度、重置時間與可用重置機會。"
+  },
+  "extActionTitle": {
+    "message": "ChatGPT 額度圓環 · 點擊開啟使用額度頁面 · 懸停查看詳情"
+  },
+  "controlAria": {
+    "message": "點擊開啟使用額度頁面；按住拖曳可移動圓環；懸停查看額度詳情"
+  },
+  "fiveLabel": {
+    "message": "5小時剩餘"
+  },
+  "weeklyLabel": {
+    "message": "每週剩餘"
+  },
+  "creditLabel": {
+    "message": "可用重置機會："
+  },
+  "creditCount": {
+    "message": "$1次"
+  },
+  "loading": {
+    "message": "讀取中…"
+  },
+  "noWindowData": {
+    "message": "此週期暫無資料"
+  },
+  "resetUnknown": {
+    "message": "尚未公布重置時間"
+  },
+  "resetPassed": {
+    "message": "預計已重置"
+  },
+  "resetsDays": {
+    "message": "$1天$2小時後重置"
+  },
+  "resetsHours": {
+    "message": "$1小時$2分鐘後重置"
+  },
+  "resetsMinutes": {
+    "message": "$1分鐘後重置"
+  },
+  "expiryUnknown": {
+    "message": "尚未公布到期時間"
+  },
+  "creditSeconds": {
+    "message": "$1秒"
+  },
+  "creditMinutes": {
+    "message": "$1分鐘"
+  },
+  "creditHours": {
+    "message": "$1小時"
+  },
+  "creditDays": {
+    "message": "$1天"
+  },
+  "creditDaysHours": {
+    "message": "$1天$2小時"
+  },
+  "creditRemaining": {
+    "message": "剩 $1"
+  },
+  "listSeparator": {
+    "message": "，"
+  },
+  "creditCountUnknown": {
+    "message": "介面未提供重置次數"
+  },
+  "creditsNone": {
+    "message": "目前沒有可用的預存重置"
+  },
+  "creditDetailsUnavailable": {
+    "message": "暫時無法讀取到期詳情"
+  },
+  "creditRateLimited": {
+    "message": "到期詳情查詢受限，稍後更新"
+  },
+  "creditNoExpiry": {
+    "message": "尚未提供具體到期時間"
+  },
+  "creditExtraCount": {
+    "message": "另有$1次未提供到期時間"
+  },
+  "connectionTimeout": {
+    "message": "連線逾時，請重新整理 ChatGPT 頁面"
+  },
+  "usageReadFailed": {
+    "message": "額度讀取失敗"
+  },
+  "errorTimeout": {
+    "message": "讀取逾時"
+  },
+  "errorTooManyRequests": {
+    "message": "請求過於頻繁（HTTP 429）"
+  },
+  "errorUnauthorized": {
+    "message": "額度介面拒絕存取；請確認登入狀態"
+  },
+  "errorNotRecognized": {
+    "message": "無法辨識額度資料"
+  },
+  "errorNoQuota": {
+    "message": "介面未回傳可辨識的5小時或每週額度"
+  },
+  "errorNoSession": {
+    "message": "無法取得登入工作階段；請確認已登入 ChatGPT"
+  },
+  "errorUnknown": {
+    "message": "未知錯誤"
+  },
+  "errorHttp": {
+    "message": "HTTP 錯誤 $1"
+  },
+  "popupTitle": {
+    "message": "額度與重置機會"
+  },
+  "popupSubtitle": {
+    "message": "ChatGPT Work / Codex · 額度懸浮窗"
+  },
+  "popupCreditLabel": {
+    "message": "可用的預存重置"
+  },
+  "popupLoading": {
+    "message": "正在讀取本機額度資料…"
+  },
+  "popupNoCount": {
+    "message": "尚未讀取到重置次數。請開啟 ChatGPT 頁面並重新整理。"
+  },
+  "popupNoDetails": {
+    "message": "目前只能讀取次數，尚無到期詳情"
+  },
+  "popupExtraCount": {
+    "message": "另有$1次未回傳具體到期時間"
+  },
+  "popupNoExpiry": {
+    "message": "伺服器未提供具體到期時間"
+  },
+  "popupShowRing": {
+    "message": "在 ChatGPT 頁面顯示圓環"
+  },
+  "popupUsagePage": {
+    "message": "查看額度頁面"
+  },
+  "popupRefresh": {
+    "message": "重新整理資料"
+  },
+  "popupSafetyNote": {
+    "message": "僅查詢可用次數與到期時間，不會自動使用重置機會。"
+  },
+  "popupRefreshNotice": {
+    "message": "已發出更新請求；請保持 ChatGPT 分頁可見。"
+  }
+}

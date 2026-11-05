@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ChatGPT Quota Ring v0.5.33</title>
+<style>
+  *{box-sizing:border-box;font-family:"Microsoft YaHei","微软雅黑","Microsoft YaHei UI","Noto Sans CJK SC",sans-serif;font-weight:400}
+  body{width:284px;margin:0;padding:11px;background:#f8f8f7;color:#202124;font:400 13px/1.4 "Microsoft YaHei","微软雅黑","Microsoft YaHei UI","Noto Sans CJK SC",sans-serif;-webkit-font-smoothing:antialiased}
+  .wrap{background:#fff;border:1px solid #ececeb;border-radius:15px;padding:16px;box-shadow:0 6px 18px rgba(0,0,0,.035)}
+  h1{margin:0 0 2px;font-size:16px;font-weight:400;letter-spacing:-.3px}p{margin:0 0 14px;font-size:11.7px;color:#8b8d91;line-height:1.45}
+  .label{font-size:12px;font-weight:400;color:#74767a}.count{font-weight:400;font-size:23px;letter-spacing:-.8px;margin:3px 0 7px;font-variant-numeric:tabular-nums}
+  .dates{color:#77797d;font-size:12px;line-height:1.55;white-space:pre-line;font-variant-numeric:tabular-nums}
+  hr{border:0;border-top:1px solid #f0f0ef;margin:13px 0}
+  .row{display:flex;align-items:center;gap:9px;margin:10px 0 0;color:#55585c;font-size:12px}.row input{accent-color:#10a37f;margin:0}
+  .btns{display:flex;gap:8px;margin-top:15px}.btn{flex:1;border:1px solid #e7e7e5;background:#fff;border-radius:10px;padding:9px 5px;cursor:pointer;color:#37393c;font-size:12px;font-weight:400;font-family:inherit}.btn:hover{background:#f7f7f6}.btn.primary{background:#202124;border-color:#202124;color:#fff}.btn.primary:hover{background:#353638}
+  small{font-size:10.8px;color:#96989c;line-height:1.5;display:block;margin-top:12px}
+</style></head><body><div class="wrap">
+  <h1 data-i18n="popupTitle">额度与重置机会</h1>
+  <p data-i18n="popupSubtitle">ChatGPT Work / Codex · 额度悬浮窗</p>
+  <div class="label" data-i18n="popupCreditLabel">可用的预存重置</div><div class="count" id="count">—</div>
+  <div class="dates" id="dates" data-i18n="popupLoading">正在读取本地额度数据…</div>
+  <hr>
+  <label class="row"><input type="checkbox" id="enabled" checked><span data-i18n="popupShowRing">在 ChatGPT 网页显示圆环</span></label>
+  <div class="btns"><button class="btn primary" id="usage" data-i18n="popupUsagePage">查看额度页面</button><button class="btn" id="refresh" data-i18n="popupRefresh">刷新数据</button></div>
+  <small data-i18n="popupSafetyNote">仅查询可用次数和到期时间，不会自动使用重置机会。</small>
+</div><script src="popup.js"></script></body></html>

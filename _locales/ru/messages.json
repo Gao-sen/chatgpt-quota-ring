@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "ChatGPT — индикатор лимитов"
+  },
+  "extDescription": {
+    "message": "Остаток лимита за 5 часов, недельный лимит, сроки сброса и доступные сбросы."
+  },
+  "extActionTitle": {
+    "message": "Лимиты ChatGPT · Нажмите для просмотра · Наведите для деталей"
+  },
+  "controlAria": {
+    "message": "Нажмите для статистики, перетащите для перемещения, наведите для деталей"
+  },
+  "fiveLabel": {
+    "message": "За 5 ч осталось"
+  },
+  "weeklyLabel": {
+    "message": "За неделю"
+  },
+  "creditLabel": {
+    "message": "Доступно сбросов: "
+  },
+  "creditCount": {
+    "message": "$1"
+  },
+  "loading": {
+    "message": "Загрузка…"
+  },
+  "noWindowData": {
+    "message": "Нет данных за период"
+  },
+  "resetUnknown": {
+    "message": "Время сброса неизвестно"
+  },
+  "resetPassed": {
+    "message": "Сброс должен был произойти"
+  },
+  "resetsDays": {
+    "message": "Сброс через $1 д. $2 ч."
+  },
+  "resetsHours": {
+    "message": "Сброс через $1 ч. $2 мин."
+  },
+  "resetsMinutes": {
+    "message": "Сброс через $1 мин."
+  },
+  "expiryUnknown": {
+    "message": "Срок неизвестен"
+  },
+  "creditSeconds": {
+    "message": "$1 сек."
+  },
+  "creditMinutes": {
+    "message": "$1 мин."
+  },
+  "creditHours": {
+    "message": "$1 ч."
+  },
+  "creditDays": {
+    "message": "$1 д."
+  },
+  "creditDaysHours": {
+    "message": "$1 д. $2 ч."
+  },
+  "creditRemaining": {
+    "message": "Осталось: $1"
+  },
+  "listSeparator": {
+    "message": ", "
+  },
+  "creditCountUnknown": {
+    "message": "Число сбросов неизвестно"
+  },
+  "creditsNone": {
+    "message": "Нет доступных сбросов"
+  },
+  "creditDetailsUnavailable": {
+    "message": "Сроки действия недоступны"
+  },
+  "creditRateLimited": {
+    "message": "Запрос сроков ограничен, повторим позже"
+  },
+  "creditNoExpiry": {
+    "message": "Сроки действия не указаны"
+  },
+  "creditExtraCount": {
+    "message": "Ещё $1 без срока действия"
+  },
+  "connectionTimeout": {
+    "message": "Время ожидания истекло. Обновите ChatGPT."
+  },
+  "usageReadFailed": {
+    "message": "Не удалось загрузить лимиты"
+  },
+  "errorTimeout": {
+    "message": "Время запроса истекло"
+  },
+  "errorTooManyRequests": {
+    "message": "Слишком много запросов (HTTP 429)"
+  },
+  "errorUnauthorized": {
+    "message": "Доступ к лимитам закрыт. Проверьте вход."
+  },
+  "errorNotRecognized": {
+    "message": "Неизвестный формат лимитов"
+  },
+  "errorNoQuota": {
+    "message": "Нет данных о лимитах за 5 часов или за неделю"
+  },
+  "errorNoSession": {
+    "message": "Сначала войдите в ChatGPT"
+  },
+  "errorUnknown": {
+    "message": "Неизвестная ошибка"
+  },
+  "errorHttp": {
+    "message": "Ошибка HTTP $1"
+  },
+  "popupTitle": {
+    "message": "Лимиты и сбросы"
+  },
+  "popupSubtitle": {
+    "message": "ChatGPT Work / Codex · Лимиты"
+  },
+  "popupCreditLabel": {
+    "message": "Доступные сохранённые сбросы"
+  },
+  "popupLoading": {
+    "message": "Чтение локальных данных…"
+  },
+  "popupNoCount": {
+    "message": "Число сбросов неизвестно. Откройте ChatGPT и обновите."
+  },
+  "popupNoDetails": {
+    "message": "Есть число сбросов, но нет сроков действия"
+  },
+  "popupExtraCount": {
+    "message": "Ещё $1 без данных о сроке"
+  },
+  "popupNoExpiry": {
+    "message": "Сервер не вернул сроки действия"
+  },
+  "popupShowRing": {
+    "message": "Показывать кольцо в ChatGPT"
+  },
+  "popupUsagePage": {
+    "message": "Страница лимитов"
+  },
+  "popupRefresh": {
+    "message": "Обновить"
+  },
+  "popupSafetyNote": {
+    "message": "Только чтение. Сбросы не расходуются автоматически."
+  },
+  "popupRefreshNotice": {
+    "message": "Обновление запрошено. Оставьте вкладку ChatGPT открытой."
+  }
+}

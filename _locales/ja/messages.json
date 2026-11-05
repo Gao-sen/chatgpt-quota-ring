@@ -1,0 +1,158 @@
+{
+  "extName": {
+    "message": "ChatGPT 利用枠リング"
+  },
+  "extDescription": {
+    "message": "5時間の残り利用枠を表示。ホバーで週間利用枠、リセット時間、利用可能なリセット回数を確認できます。"
+  },
+  "extActionTitle": {
+    "message": "ChatGPT 利用枠リング · クリックで使用状況 · ホバーで詳細"
+  },
+  "controlAria": {
+    "message": "クリックで使用状況を開く。ドラッグで移動。ホバーで利用枠の詳細を表示"
+  },
+  "fiveLabel": {
+    "message": "5時間の残り"
+  },
+  "weeklyLabel": {
+    "message": "週間の残り"
+  },
+  "creditLabel": {
+    "message": "利用可能なリセット："
+  },
+  "creditCount": {
+    "message": "$1回"
+  },
+  "loading": {
+    "message": "読み込み中…"
+  },
+  "noWindowData": {
+    "message": "この期間のデータなし"
+  },
+  "resetUnknown": {
+    "message": "リセット時刻は未公開"
+  },
+  "resetPassed": {
+    "message": "リセット済みの見込み"
+  },
+  "resetsDays": {
+    "message": "$1日$2時間後"
+  },
+  "resetsHours": {
+    "message": "$1時間$2分後"
+  },
+  "resetsMinutes": {
+    "message": "$1分後"
+  },
+  "expiryUnknown": {
+    "message": "有効期限不明"
+  },
+  "creditSeconds": {
+    "message": "$1秒"
+  },
+  "creditMinutes": {
+    "message": "$1分"
+  },
+  "creditHours": {
+    "message": "$1時間"
+  },
+  "creditDays": {
+    "message": "$1日"
+  },
+  "creditDaysHours": {
+    "message": "$1日$2時間"
+  },
+  "creditRemaining": {
+    "message": "残り $1"
+  },
+  "listSeparator": {
+    "message": "、"
+  },
+  "creditCountUnknown": {
+    "message": "リセット回数を取得できません"
+  },
+  "creditsNone": {
+    "message": "利用可能なリセットなし"
+  },
+  "creditDetailsUnavailable": {
+    "message": "有効期限の詳細を取得できません"
+  },
+  "creditRateLimited": {
+    "message": "有効期限の照会が制限されています"
+  },
+  "creditNoExpiry": {
+    "message": "有効期限の情報なし"
+  },
+  "creditExtraCount": {
+    "message": "ほか$1回の有効期限は不明"
+  },
+  "connectionTimeout": {
+    "message": "接続がタイムアウトしました。ChatGPTを再読み込みしてください。"
+  },
+  "usageReadFailed": {
+    "message": "利用枠を取得できません"
+  },
+  "errorTimeout": {
+    "message": "読み込みがタイムアウトしました"
+  },
+  "errorTooManyRequests": {
+    "message": "アクセス過多です（HTTP 429）"
+  },
+  "errorUnauthorized": {
+    "message": "利用枠へのアクセスが拒否されました。ログインを確認してください"
+  },
+  "errorNotRecognized": {
+    "message": "利用枠データを識別できません"
+  },
+  "errorNoQuota": {
+    "message": "5時間または週間の利用枠データがありません"
+  },
+  "errorNoSession": {
+    "message": "ChatGPTへのログインを確認してください"
+  },
+  "errorUnknown": {
+    "message": "不明なエラー"
+  },
+  "errorHttp": {
+    "message": "HTTPエラー $1"
+  },
+  "popupTitle": {
+    "message": "利用枠とリセット"
+  },
+  "popupSubtitle": {
+    "message": "ChatGPT Work / Codex · 利用枠リング"
+  },
+  "popupCreditLabel": {
+    "message": "利用可能な保存済みリセット"
+  },
+  "popupLoading": {
+    "message": "保存済みデータを読み込み中…"
+  },
+  "popupNoCount": {
+    "message": "リセット回数が未取得です。ChatGPTを開いて更新してください。"
+  },
+  "popupNoDetails": {
+    "message": "回数のみ取得できました。有効期限は不明です"
+  },
+  "popupExtraCount": {
+    "message": "ほか$1回は有効期限不明"
+  },
+  "popupNoExpiry": {
+    "message": "有効期限が返されませんでした"
+  },
+  "popupShowRing": {
+    "message": "ChatGPTにリングを表示"
+  },
+  "popupUsagePage": {
+    "message": "利用状況を開く"
+  },
+  "popupRefresh": {
+    "message": "更新"
+  },
+  "popupSafetyNote": {
+    "message": "参照専用です。リセット回数を自動消費しません。"
+  },
+  "popupRefreshNotice": {
+    "message": "更新を要求しました。ChatGPTのタブを表示してください。"
+  }
+}
