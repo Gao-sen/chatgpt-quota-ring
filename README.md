@@ -1,59 +1,81 @@
-# ChatGPT Quota Ring / ChatGPT 额度悬浮窗
+# ChatGPT Quota Ring
 
-A small, unofficial Chrome extension that displays the remaining ChatGPT Work / Codex quota in a draggable green ring.
+**A lightweight, unofficial Chrome extension for keeping ChatGPT Work / Codex usage limits in sight.**
 
-一款非官方 Chrome 扩展：在 ChatGPT 网页显示可拖动的绿色额度圆环。
+See your remaining five-hour quota in a small, draggable ring. Hover to check your weekly quota, reset countdowns, and the time remaining on available reset credits — without leaving your conversation.
 
-## Preview / 界面预览
-<img width="1496" height="794" alt="屏幕截图 2026-11-06 005309" src="https://github.com/user-attachments/assets/b8f0e7ed-af75-4d8d-908f-cbf9dda2678a" />
+[**Download the latest release**](https://github.com/Gao-sen/chatgpt-quota-ring/releases/latest) · [Installation](#installation) · [Privacy](#privacy)
 
+## Preview
 
-## Features / 功能
+![ChatGPT Quota Ring — six-language interface preview](https://github.com/user-attachments/assets/b8f0e7ed-af75-4d8d-908f-cbf9dda2678a)
 
-- Live 5-hour quota ring / 5 小时剩余额度圆环
-- Hover for weekly quota and reset countdown / 悬停查看每周额度与重置倒计时
-- Read-only saved reset credits and time to expiry / 只读展示重置机会及到期倒计时
-- Click the ring to open ChatGPT usage page; drag to reposition / 单击打开额度页面，拖动调整位置
-- Automatic localization based on Chrome UI language / 按 Chrome 界面语言自动切换 **简体中文、繁體中文、日本語、English、Русский、한국어**
-- No account/API-key setup required / 无需额外填写账号或 API Key
+## Features
 
-## Install / 安装（GitHub 下载）
+- **At-a-glance usage:** A green progress ring shows your remaining five-hour quota.
+- **Detailed hover card:** View your weekly quota and reset countdowns in a compact tooltip.
+- **Reset credit tracking:** Check available reset credits and their remaining validity, when the service provides this data.
+- **Quick access:** Click the ring to open the ChatGPT usage page in a new tab.
+- **Flexible placement:** Drag the ring anywhere on the page; its position is remembered.
+- **Automatic refresh:** Refreshes quota data periodically while ChatGPT is open and visible.
+- **Automatic localization:** Uses your Chrome interface language; no manual language selection required.
+- **No extra sign-in:** Works with your existing ChatGPT session; no API key is needed.
 
-1. Download the latest `ChatGPT_Quota_Ring_v*.zip` from **Releases**.
-2. Extract the ZIP and keep the extracted folder in a permanent location.
-3. Open `chrome://extensions/` and enable **Developer mode**.
-4. Click **Load unpacked** and choose the folder containing `manifest.json`.
-5. Open or refresh `https://chatgpt.com/` while signed in.
+## Supported Languages
 
-中文：从 Releases 下载 ZIP → 解压 → 打开 `chrome://extensions/` → 开启「开发者模式」→ 「加载已解压的扩展程序」→ 选中含 `manifest.json` 的文件夹 → 刷新 ChatGPT。
+- English
+- Simplified Chinese
+- Traditional Chinese
+- Japanese
+- Korean
+- Russian
 
-**Update / 更新：** Extract the newer version over the original folder, then click **Reload** on `chrome://extensions/` and refresh ChatGPT. GitHub releases do **not** auto-update unpacked extensions.
+The extension follows your **Chrome UI language**. If your language is not supported, the interface defaults to **English**.
 
-## Languages / 语言
+## Installation
 
-The extension uses Chrome's interface language (`chrome.i18n.getUILanguage`). Other languages fall back to English. Change Chrome's language and restart Chrome if you want another UI language. No manual setting is needed.
+1. Open [**Releases**](https://github.com/Gao-sen/chatgpt-quota-ring/releases/latest) and download `ChatGPT_Quota_Ring_v*.zip`.
+2. Extract the ZIP to a permanent folder. Do not delete or move that folder after installation.
+3. In Chrome, open `chrome://extensions/`.
+4. Enable **Developer mode** in the upper-right corner.
+5. Click **Load unpacked** and select the extracted folder containing `manifest.json`.
+6. Sign in to [ChatGPT](https://chatgpt.com/) and refresh the page.
 
-## Privacy / 隐私
+### Updating
 
-The extension queries ChatGPT's same-origin session and **undocumented** quota endpoints. The session access token is only used transiently inside the page-side bridge; it is not written to extension storage. Only quota values, timestamps and UI settings are saved locally. No third-party analytics or network destination is included. The extension does not consume reset credits. Inspect `bridge.js`, `content.js` and `popup.js` for details.
+Download the newer ZIP, extract it over your existing extension files, then open `chrome://extensions/` and click **Reload** for this extension. Refresh the ChatGPT tab afterward.
 
-**Limitations:** Internal endpoints can change without notice. This extension is not affiliated with or endorsed by OpenAI. The displayed quota is the available Work / Codex quota, not a promise of usage allowances for every ChatGPT model.
+> **Note:** Extensions installed through **Load unpacked** do not receive automatic updates from GitHub Releases.
 
-## Files / 文件
+## Privacy & Security
 
-- `manifest.json` — Chrome Manifest V3
-- `bridge.js` — same-origin quota lookup
-- `content.js` — floating ring and tooltip
-- `popup.html` + `popup.js` — browser popup
-- `_locales/` — Chrome-native localizations
-- `icons/` — extension icons
+- The extension uses your existing ChatGPT session to request quota information from ChatGPT's own web endpoints.
+- The session access token is used transiently by the page-side bridge and is **not saved** to Chrome extension storage.
+- Quota values, timestamps, and display preferences are stored locally in your browser.
+- No third-party analytics or external data collection service is included.
+- Reset credit information is **read-only**. The extension does not redeem or consume reset credits.
+
+You can inspect the implementation in [`bridge.js`](bridge.js), [`content.js`](content.js), and [`popup.js`](popup.js).
+
+## Project Structure
+
+| File or folder | Purpose |
+| --- | --- |
+| `manifest.json` | Chrome extension configuration (Manifest V3) |
+| `bridge.js` | Reads quota data using the current ChatGPT session |
+| `content.js` | Renders the draggable ring and hover card |
+| `popup.html`, `popup.js` | Extension popup and controls |
+| `_locales/` | Language resources |
+| `icons/` | Extension icons |
+
+## Compatibility & Disclaimer
+
+This is an **independent, unofficial project** and is **not affiliated with or endorsed by OpenAI**. It relies on undocumented ChatGPT web endpoints, which may change or become unavailable without notice. Displayed values reflect the quota information returned by the service and should not be interpreted as limits for every ChatGPT model or feature.
 
 ## License
 
-No open-source license is included yet. The repository owner should select a license (for example MIT) only after verifying that they have the necessary rights to publish all assets and branding.
+No open-source license has been added to this repository yet. All rights remain with their respective owners.
 
-### v0.5.33
+---
 
-- Added Traditional Chinese (`zh_TW` and `zh_HK`).
-- Unsupported Chrome languages now fall back to English.
-- Tooltip aligns its top edge with the floating ring; pointer aligns with the five-hour quota row.
+**Current release:** v0.5.33 · Six-language support, English fallback, and top-aligned hover card.
